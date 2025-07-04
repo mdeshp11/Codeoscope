@@ -46,7 +46,7 @@
 
 ```bash
 git clone https://github.com/mdeshp11/Codeoscope.git
-cd codeoscope
+cd Codeoscope
 npm install
 npm run dev
 ```
