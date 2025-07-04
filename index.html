@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeoscope - Code Explanation and Architecture Tool</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="https://unpkg.com/@hpcc-js/wasm@2.13.0/dist/graphviz.umd.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Add error handling for external scripts -->
+    <script>
+      window.addEventListener('error', function(e) {
+        console.error('External script error:', e);
+        // Prevent white screen by ensuring the app container exists
+        if (!document.getElementById('root')) {
+          const rootDiv = document.createElement('div');
+          rootDiv.id = 'root';
+          document.body.appendChild(rootDiv);
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; text-align: center; font-family: system-ui, sans-serif;">
+        <h1 style="color: #4b5563; margin-bottom: 1rem;">JavaScript Required</h1>
+        <p style="color: #6b7280;">
+          This application requires JavaScript to run. Please enable JavaScript in your browser settings and reload the page.
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
