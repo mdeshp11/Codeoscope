@@ -51,4 +51,4 @@ npm install
 npm run dev
 ```
 
-👉 **Try it live:**  [https://codeoscope.netlify.app](https://codeoscope.netlify.app)
+**Try it live:**  [https://codeoscope.netlify.app](https://codeoscope.netlify.app)
