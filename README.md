@@ -4,20 +4,20 @@
 
 ---
 
-## 🌟 Features
+## Features
 
-- 📂 **Upload local folders or GitHub repositories**
-- 🧠 **LLM-based code and file explanations**
-- 🧱 **Auto-generated architecture diagrams**
-- 🔄 **Data flow diagrams for local projects**
-- 🔍 **Dependency maps to uncover tight couplings**
-- ✍️ **Paste-and-analyze code snippets**
-- 🔐 **User authentication with Firebase**
-- 🎨 **Modern dark/light theme toggle**
+- **Upload local folders or GitHub repositories**
+- **LLM-based code and file explanations**
+- **Auto-generated architecture diagrams**
+- **Data flow diagrams for local projects**
+- **Dependency maps to uncover tight couplings**
+- **Paste-and-analyze code snippets**
+- **User authentication with Firebase**
+- **Modern dark/light theme toggle**
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer        | Tools                                         |
 |--------------|-----------------------------------------------|
@@ -29,9 +29,9 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 📦 Prerequisites:
+### Prerequisites:
 
 - Node.js (v16 or newer)
 - Git
@@ -40,7 +40,7 @@
 
 ---
 
-### 🔧 Steps to install and run locally:
+### Steps to install and run locally:
 
 1. **Clone the repo**
 
